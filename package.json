@@ -1,0 +1,34 @@
+{
+  "name": "desafio-3-tests",
+  "version": "1.0.0",
+  "description": "Challenge #3",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js --timeout=200000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celiapaivab/desafio-3-tests.git"
+  },
+  "keywords": [
+    "supertest",
+    "mocha",
+    "chai",
+    "k6"
+  ],
+  "author": "Team #3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celiapaivab/desafio-3-tests/issues"
+  },
+  "homepage": "https://github.com/celiapaivab/desafio-3-tests#readme",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "dotenv": "^17.2.3",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  }
+}
